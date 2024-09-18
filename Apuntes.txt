@@ -1,0 +1,34 @@
+Comandos
+
+Cuando volvemos a trabajar de cierto tiempo 
+- git pull origin develop  -> actualizamos la ultima versión
+
+- git checkout -b feature-#1-nombreRama
+- git add .
+- git commit -m "primera version"
+- git push origin feature-#1-reserva -> subiendo desde mi rama
+
+Una ves subido las tareas
+- git checkout develop -> salimos de nuestra rama 
+
+
+
+para trabajar de nuevo, hacemos pull y entramos a nuestra rama
+
+
+
+Configurar el repositorio
+Crear tareas en Issues.
+
+En manage crear labels como Backlog y To Do y Doing y Review y Done
+
+Después entramos a plan
+  - Issue boards -> creamos nuevas listas con los labels que creamos
+  en orden, backlog, to do, Doing, Review, Done 
+
+Una vez suban al repositorio, yo como creador del repositroio voy a manage-request para aceptar lo subido, primero el que subio debe dar create merge request solicitando a que se una al repositorio.
+
+- Después apruebo y elimino la rama local
+después vamos al repositorio a ver los cambios
+
+Detalles, podemos modificar los labels.
