@@ -1,0 +1,15 @@
+Adapter es un patrón de diseño estructural que permite la colaboración entre objetos con interfaces incompatibles.
+
+El patrón Adapter es un patrón de diseño estructural que permite que dos clases incompatibles trabajen juntas. Este patrón actúa como un "puente" entre dos interfaces que de otro modo serían incompatibles. Se utiliza cuando tenemos una clase existente y queremos que funcione con una interfaz diferente sin cambiar su código original.
+
+Definición del patrón Adapter:
+El patrón Adapter convierte la interfaz de una clase en otra interfaz que los clientes esperan. Adapter permite que las clases trabajen juntas, lo cual no sería posible debido a sus interfaces incompatibles.
+
+¿Cómo funciona?
+El Adapter envuelve un objeto (el objeto "adaptee" o adaptado) y expone los métodos de este objeto a través de una nueva interfaz (la interfaz adaptadora). Esto permite que el cliente use la interfaz esperada mientras el objeto adaptado ejecuta su funcionalidad.
+
+Estructura básica del patrón Adapter:
+- Cliente (Client): La clase que necesita usar un servicio a través de una interfaz específica.
+- Target (Objetivo): La interfaz que el cliente espera usar.
+- Adaptee (Adaptado): La clase existente que tiene una funcionalidad útil pero una interfaz incompatible.
+- Adapter (Adaptador): La clase que implementa la interfaz del Target y traduce las llamadas del cliente para que funcionen con el Adaptee.

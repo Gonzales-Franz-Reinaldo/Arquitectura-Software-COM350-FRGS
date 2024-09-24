@@ -1,0 +1,23 @@
+Proxy es un patrón de diseño estructural que te permite proporcionar un sustituto o marcador de posición para otro objeto. Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que la solicitud llegue al objeto original.
+
+
+El Patrón Proxy es un patrón de diseño estructural que proporciona un sustituto o representante de otro objeto para controlar el acceso a él. Es útil cuando no podemos o no queremos acceder directamente a un objeto porque puede ser costoso de crear, consumir muchos recursos o requerir control de acceso.
+
+Definición del patrón Proxy:
+
+El patrón Proxy actúa como un intermediario o "proxy" que controla el acceso a otro objeto. Puede hacer esto mediante la realización de ciertas operaciones antes o después de llamar al objeto real.
+
+¿Cómo funciona?
+
+El proxy tiene la misma interfaz que el objeto real al que representa. Así, los clientes interactúan con el proxy como si estuvieran interactuando con el objeto real, pero el proxy decide si permite el acceso, realiza optimizaciones o gestiona recursos de manera eficiente.
+
+Tipos comunes de Proxy:
+
+1-Proxy remoto: Controla el acceso a un objeto que reside en una ubicación remota.
+2-Proxy virtual: Retrasa la creación de un objeto costoso hasta que se necesite.
+3-Proxy de protección: Controla el acceso a un objeto mediante la verificación de permisos.
+
+Estructura básica del patrón Proxy:
+1-Interfaz Sujeto (Subject): Define la interfaz común tanto para el proxy como para el objeto real.
+2-Sujeto Real (RealSubject): Es el objeto real al que se accede a través del proxy.
+3-Proxy: Implementa la misma interfaz que el sujeto y controla el acceso al objeto real.

@@ -32,3 +32,102 @@ Una vez suban al repositorio, yo como creador del repositroio voy a manage-reque
 después vamos al repositorio a ver los cambios
 
 Detalles, podemos modificar los labels.
+
+
+
+
+
+¿Qué es la arquitectura de software?
+¿Qué son los patrones de diseño?
+¿Qué son los principios SOLID?
+¿Qué es el principio de inversión de dependencias?
+¿Qué es el principio abierto-cerrado?
+¿Cuáles son los pilares de Scrum y en qué consisten?
+¿Cuáles son las preguntas que debe hacerse el equipo en el Daily Scrum?
+¿Cuáles son las características del equipo de Scrum?
+¿Cuál es la función del Product Owner en el equipo?
+¿Qué es el ROI?
+¿Qué es el backlog?
+El Product Owner es el dueño del producto (V/F).
+Stakeholders.
+
+
+PARTE TEORICA DE COM350
+
+
+
+1. ¿Qué es la arquitectura de software?
+
+La arquitectura de software es la estructura fundamental de un sistema, que comprende los componentes principales, sus relaciones entre sí y su entorno. Define cómo interactúan los diferentes elementos y proporciona una base para las decisiones de diseño, la escalabilidad y el mantenimiento del software.
+
+2. ¿Qué son los patrones de diseño?
+
+Los patrones de diseño son soluciones generales reutilizables a problemas comunes que ocurren en el diseño de software. Estos patrones ofrecen una forma estandarizada de resolver problemas recurrentes en el desarrollo, lo que mejora la eficiencia y la mantenibilidad del código.
+
+3. ¿Qué son los principios SOLID?
+
+Los principios SOLID son cinco guías de diseño de software orientado a objetos que promueven la creación de software más flexible, mantenible y escalable:
+
+S: Single Responsibility Principle (Principio de Responsabilidad Única).
+O: Open/Closed Principle (Principio Abierto/Cerrado).
+L: Liskov Substitution Principle (Principio de Sustitución de Liskov).
+I: Interface Segregation Principle (Principio de Segregación de Interfaces).
+D: Dependency Inversion Principle (Principio de Inversión de Dependencias).
+
+
+4. ¿Qué es el principio de inversión de dependencias?
+
+Este principio establece que los módulos de alto nivel no deben depender de los de bajo nivel, sino de abstracciones. Las abstracciones no deben depender de detalles, sino que los detalles deben depender de abstracciones. Esto se traduce en que las dependencias deben invertirse para reducir el acoplamiento y mejorar la flexibilidad del sistema.
+
+5. ¿Qué es el principio abierto-cerrado?
+El principio abierto-cerrado indica que el software debe estar abierto para extensión, pero cerrado para modificación. Es decir, deberíamos poder agregar nuevas funcionalidades sin alterar el código existente, lo que ayuda a evitar la introducción de errores en sistemas ya en producción.
+
+
+6. ¿Cuáles son los pilares de Scrum y en qué consisten?
+Scrum se basa en tres pilares:
+
+- Transparencia: Todos los aspectos del proceso de desarrollo deben ser visibles para todos los involucrados, lo que garantiza decisiones basadas en hechos.
+- Inspección: Los artefactos de Scrum y el progreso deben ser inspeccionados regularmente para identificar problemas o desviaciones.
+- Adaptación: Si algo en el proceso no es conforme con lo esperado, el equipo debe ajustar sus métodos para minimizar el impacto.
+
+
+7. ¿Cuáles son las preguntas que debe hacerse el equipo en el Daily Scrum?
+Durante el Daily Scrum, el equipo de desarrollo responde tres preguntas clave:
+
+- ¿Qué hice ayer que ayudó al equipo a alcanzar el objetivo del Sprint?
+- ¿Qué voy a hacer hoy para ayudar al equipo a alcanzar el objetivo del Sprint?
+- ¿Hay algún impedimento que esté bloqueando mi progreso?
+
+
+8. ¿Cuáles son las características del equipo de Scrum?
+El equipo de Scrum es:
+
+- Multifuncional: Todos los miembros tienen las habilidades necesarias para completar el trabajo sin depender de externos.
+- Autogestionado: El equipo decide internamente quién hace qué, cuándo y cómo.
+- Pequeño pero eficiente: Generalmente de 10 personas o menos para facilitar la comunicación y la agilidad.
+
+
+9. ¿Cuál es la función del Product Owner en el equipo?
+
+El Product Owner es responsable de maximizar el valor del producto desarrollado por el equipo. Administra el Product Backlog, prioriza las tareas y actúa como el puente entre el equipo de desarrollo y los stakeholders, asegurando que se trabajen las características de mayor valor.
+
+
+10. ¿Qué es el ROI?
+
+ROI significa Return on Investment (Retorno sobre la Inversión). Es una métrica que evalúa la eficiencia de una inversión, calculando el beneficio o retorno en relación con el costo de inversión. En desarrollo de software, se utiliza para medir el valor generado en comparación con los recursos invertidos.
+
+11. ¿Qué es el backlog?
+
+El backlog es una lista priorizada de tareas, funcionalidades o mejoras pendientes por desarrollar. En Scrum, se distingue entre:
+
+- Product Backlog: Contiene todo el trabajo necesario para mejorar el producto.
+- Sprint Backlog: Subconjunto del Product Backlog que se selecciona para trabajar durante un Sprint.
+
+
+12. El Product Owner es el dueño del producto (V/F).
+
+Verdadero. El Product Owner es el responsable de maximizar el valor del producto y gestiona el Product Backlog para asegurar que se desarrollen las características más valiosas.
+
+13. Stakeholders
+
+Los stakeholders son todas las personas u organizaciones interesadas o afectadas por el proyecto o el producto. En Scrum, incluyen tanto a los clientes como a los usuarios finales, así como a cualquier otra persona que tenga un interés en el éxito del producto.

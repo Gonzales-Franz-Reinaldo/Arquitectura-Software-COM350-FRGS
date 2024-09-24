@@ -1,0 +1,18 @@
+Prototype es un patrón de diseño creacional que nos permite copiar objetos existentes sin que el código dependa de sus clases.
+
+
+
+El patrón Prototype es un patrón de diseño creacional que permite crear nuevos objetos copiando o clonando una instancia existente en lugar de crear una nueva desde cero. Este patrón es útil cuando el costo de creación de un objeto es costoso o complejo y queremos evitar repetir ese proceso.
+
+¿Cómo funciona?
+En el patrón Prototype, se crea un objeto base o "prototipo", y luego, cuando se requiere una nueva instancia, en lugar de crearla desde cero, se clona este prototipo. Esto permite crear objetos rápidamente sin necesidad de pasar por la creación completa, lo cual puede ahorrar tiempo y recursos.
+
+Características principales:
+
+- Clonación: Los objetos se crean mediante la clonación de una instancia existente.
+- Evitar la creación directa: Útil cuando la creación de un objeto es costosa en términos de recursos o compleja.
+
+Estructura básica del patrón Prototype:
+- Interfaz Prototype: Define el método clonar() que será implementado por las clases que quieren habilitar el clonado.
+- Clases concretas: Implementan la interfaz Prototype y el método clonar(), que permite copiar la instancia actual.
+- Cliente: El cliente utiliza la interfaz Prototype para clonar objetos en lugar de crearlos directamente.

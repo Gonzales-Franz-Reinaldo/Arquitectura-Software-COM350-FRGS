@@ -2,27 +2,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package factorymethod;
+package PatronesCreacionales.FactoryMethod;
 
-import FactoryMethod.Vehiculo;
+import PatronesCreacionales.FactoryMethod.Vehiculo;
 
 /**
  *
  * @author Franz Gonzales
  */
-public class Moto implements Vehiculo{
+public class Camion implements Vehiculo{
     @Override
     public void alquilar() {
-        System.out.println("Alquilando una moto.");
+        System.out.println("Alquilando un camión.");
     }
 
     @Override
     public void devolver() {
-        System.out.println("Devolviendo una moto.");
+        System.out.println("Devolviendo un camión.");
     }
 
     @Override
     public void realizarMantenimiento() {
-        System.out.println("Realizando mantenimiento de una moto.");
+        System.out.println("Realizando mantenimiento de un camión.");
     }
 }

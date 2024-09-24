@@ -4,6 +4,10 @@
  */
 package factorymethod;
 
+import FactoryMethod.CreadorVehiculo;
+import FactoryMethod.Moto;
+import FactoryMethod.Vehiculo;
+
 /**
  *
  * @author Franz Gonzales

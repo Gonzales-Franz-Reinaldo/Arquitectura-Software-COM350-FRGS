@@ -1,0 +1,19 @@
+Decorator es un patrón de diseño estructural que te permite añadir funcionalidades a objetos colocando estos objetos dentro de objetos encapsuladores especiales que contienen estas funcionalidades.
+
+El patrón Decorator es un patrón de diseño estructural que permite añadir funcionalidades adicionales a un objeto de manera dinámica, sin alterar su estructura. A través de este patrón, podemos extender las capacidades de los objetos individuales mediante la creación de "decoradores", que son clases que envuelven los objetos originales.
+
+
+Definición del patrón Decorator:
+
+El patrón Decorator permite añadir responsabilidades adicionales a un objeto, ya sea de manera estática o dinámica, sin modificar su estructura original. Este patrón es una alternativa flexible a la herencia para extender la funcionalidad.
+
+¿Cómo funciona?
+
+El patrón Decorator funciona al envolver un objeto en un conjunto de decoradores que pueden añadir o modificar el comportamiento del objeto original. Cada decorador implementa la misma interfaz que el objeto que está decorando, lo que permite que los decoradores sean intercambiables.
+
+Estructura básica del patrón Decorator:
+
+1-Componente (Component): Define la interfaz común para los objetos que pueden tener responsabilidades adicionales.
+2-Componente Concreto (ConcreteComponent): La clase concreta que implementa el Componente y que puede ser decorada.
+3-Decorador (Decorator): Clase abstracta que implementa la interfaz del Componente y contiene una referencia a un objeto de tipo Componente.
+4-Decoradores Concretos (ConcreteDecorator): Añaden responsabilidades o comportamientos adicionales a los objetos que decoran.

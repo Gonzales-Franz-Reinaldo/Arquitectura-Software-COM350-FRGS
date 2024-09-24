@@ -4,6 +4,8 @@
  */
 package factorymethod;
 
+import FactoryMethod.Vehiculo;
+
 /**
  *
  * @author Franz Gonzales

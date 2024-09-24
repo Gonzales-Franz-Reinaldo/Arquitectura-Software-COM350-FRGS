@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package factorymethod;
+package PatronesCreacionales.FactoryMethod;
 
 /**
  *
@@ -10,10 +10,10 @@ package factorymethod;
  */
 import java.util.Scanner;
 
-import FactoryMethod.CreadorAuto;
-import FactoryMethod.CreadorCamion;
-import FactoryMethod.CreadorMoto;
-import FactoryMethod.CreadorVehiculo;
+import PatronesCreacionales.FactoryMethod.CreadorAuto;
+import PatronesCreacionales.FactoryMethod.CreadorCamion;
+import PatronesCreacionales.FactoryMethod.CreadorMoto;
+import PatronesCreacionales.FactoryMethod.CreadorVehiculo;
 
 public class FactoryMethod {
     public static void main(String[] args) {

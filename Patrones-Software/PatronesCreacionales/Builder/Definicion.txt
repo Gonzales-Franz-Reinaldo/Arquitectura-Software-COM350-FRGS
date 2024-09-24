@@ -1,0 +1,16 @@
+Builder es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso. El patrón nos permite producir distintos tipos y representaciones de un objeto empleando el mismo código de construcción.
+
+
+El Patrón Builder es un patrón de diseño creacional que se utiliza para construir objetos complejos paso a paso. Es útil cuando la creación de un objeto requiere múltiples pasos y cuando queremos evitar que el código del constructor se vuelva muy complejo o poco legible. En lugar de tener un constructor con muchos parámetros, el patrón Builder permite construir el objeto utilizando una serie de métodos que definen cada una de sus partes.
+
+Funcionamiento del Patrón Builder
+ - Separación de la construcción del objeto: El patrón divide la construcción de un objeto en diferentes pasos. Cada paso es manejado por el Builder.
+- Fluidez en la construcción: El Builder permite encadenar las llamadas de métodos, proporcionando una sintaxis más limpia y legible.
+- Inmutabilidad: Una vez que el objeto ha sido construido, generalmente es inmutable (no cambia después de ser creado).
+
+Estructura básica del Patrón Builder
+
+Producto: El objeto final que queremos construir.
+Builder: Define los métodos para configurar las diferentes partes del objeto.
+Director (opcional): Controla el proceso de construcción, invocando al Builder en el orden adecuado.
+Cliente: Invoca al Builder para construir el objeto.
