@@ -131,3 +131,26 @@ Verdadero. El Product Owner es el responsable de maximizar el valor del producto
 13. Stakeholders
 
 Los stakeholders son todas las personas u organizaciones interesadas o afectadas por el proyecto o el producto. En Scrum, incluyen tanto a los clientes como a los usuarios finales, así como a cualquier otra persona que tenga un interés en el éxito del producto.
+
+
+
+
+
+Comando para instalar un proyecto de Laravel
+dentro de un directorio especifico
+- composer create-project --prefer-dist laravel/laravel nombreProyecto
+
+Para hacer correr el servidor 
+- php artisan serve
+
+
+
+Conceptos que se vio:
+1. Migraciones
+2. Archivos blade para direcciones
+
+
+Ver archivos como:
+- UserFactory.php
+- AgendaFactory
+- AgendaSeeder
