@@ -1,0 +1,154 @@
+/* .options{
+    display: flex;
+    gap: 5px;
+}
+ */
+
+
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container-profesion, .container-show, .formulario-profesion {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.container-profesion h1, .container-show h1 {
+    margin-bottom: 30px;
+}
+
+.formulario-profesion h2 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.impust {
+    margin-bottom: 15px;
+}
+
+.impust label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.impust input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Botones y formularios */
+button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+a.btn.volver {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+a.btn.volver:hover {
+    background-color: #5a6268;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.options form {
+    display: inline-block;
+}
+
+/* Detalles individuales */
+.profesion p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profesion p span {
+    font-weight: bold;
+    color: #007bff;
+}

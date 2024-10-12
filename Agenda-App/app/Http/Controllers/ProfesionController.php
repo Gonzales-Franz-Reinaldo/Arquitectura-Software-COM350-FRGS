@@ -12,7 +12,10 @@ class ProfesionController extends Controller
      */
     public function index()
     {
-        //
+        $profesiones = Profesion::all();
+
+        //? PARA LISTAR     
+        return view('profesion.index', compact('profesiones'));
     }
 
     /**
@@ -20,7 +23,7 @@ class ProfesionController extends Controller
      */
     public function create()
     {
-        //
+        return view('profesion.create');
     }
 
     /**
@@ -28,7 +31,13 @@ class ProfesionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nombre' => 'required'
+        ]);
+
+        Profesion::create($request->all());
+
+        return redirect()->route('profesion.index')->with('success', 'Profesión creada correctamente');
     }
 
     /**
@@ -36,7 +45,7 @@ class ProfesionController extends Controller
      */
     public function show(Profesion $profesion)
     {
-        //
+        return view('profesion.show', compact('profesion'));
     }
 
     /**
@@ -44,7 +53,7 @@ class ProfesionController extends Controller
      */
     public function edit(Profesion $profesion)
     {
-        //
+        return view('profesion.edit', compact('profesion'));
     }
 
     /**
@@ -52,7 +61,13 @@ class ProfesionController extends Controller
      */
     public function update(Request $request, Profesion $profesion)
     {
-        //
+        $request->validate([
+            'nombre' => 'required'
+        ]);
+
+        $profesion->update($request->all());
+
+        return redirect()->route('profesion.index')->with('success', 'Profesión actualizada correctamente');
     }
 
     /**
@@ -60,6 +75,8 @@ class ProfesionController extends Controller
      */
     public function destroy(Profesion $profesion)
     {
-        //
+        $profesion->delete();
+
+        return redirect()->route('profesion.index')->with('success', 'Profesión eliminada correctamente');
     }
 }
