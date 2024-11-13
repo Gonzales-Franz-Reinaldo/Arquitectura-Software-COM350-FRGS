@@ -1,0 +1,6 @@
+servicio-usuarios/node_modules
+node_modules
+.vscode
+servicio-usuarios/npm-debug.log
+.serverless
+servicio-usuarios/variables.env

@@ -154,3 +154,77 @@ Ver archivos como:
 - UserFactory.php
 - AgendaFactory
 - AgendaSeeder
+
+
+
+
+
+
+
+# COMANDOS PARA GIT LAB 
+# 1. Antes de todo hacemos pull del repositorio de develop
+- git pull origin develop
+# 2. Creamos una rama para trabajar o escribir codigo 
+- git checkout -b feature-#1-nombreRama
+# 3. Una ves terminado subimos los cambios desde la rama al develop
+- git add .
+- git commit -m "comentario"
+- git push origin feature-#nro-nombreRama
+# 4. Una ves subido entramos al link que nos genera el git para solicitar los cambios 
+# 5. Una ves que se hayan aceptado o subido los cambios debemos salir de la rama 
+- git checkout develop
+# 6. Por ultimo debemos actualizar el repositorio desde el develop
+- git pull origin develop
+
+
+# OTROS EXTRAS
+# Para buscar las ramas creadas 
+- git branch
+# Para entrar a una rama existente
+- git checkout feature-#1-nombreRama    
+
+
+
+Para que haya seguimiento de los microservicios deben tener los lojs 
+
+
+En JavaScript
+  Call back
+  Promesas
+  Async Await
+
+
+
+DOCKER e una plantilla de software para levantar aplicaciones sin problemas.
+Se crear a partir de un archivo  docker file
+
+- Imágenes 
+- Contenedores
+
+
+Con el docker file se crea la imagen
+Docker Hub es un almacen de imágenes
+
+
+COMANDOS PARA DOCKER:
+- docker run hello-world
+
+Crear un archivo sin extension para escribir el código.
+
+Para crear imagen
+- docker build -t holamundo.php .
+- docker build -t holamundo.python .
+
+Ejemplo:
+- docker build -t Service-Users .
+
+Para ferificar si los puertos están en función
+telnet localhost 3000
+
+
+En un proyecto de microservicio
+Tener el archivo dockerFile con el código
+Iniciar docker build -t service-users .  para agregar la version :1.0
+Revisar el images en Docker
+Hacer correr para generar el COntenedor
+Al seleccionar el contenedor si es necesario colocar el puerto en el form
